@@ -337,7 +337,7 @@ AI、ロボット、脳科学、SFプロトタイピングなど、幅広いテ�
     category: 'research',
     period: '2024年〜現在',
     tags: ['SFプロトタイピング', '慶應義塾大学', '研究開発'],
-    thumbnail: 'images/projects/sf-research.jpg',
+    thumbnail: 'images/projects/sf-research.png',
     details: `2024年4月より、慶應義塾大学 サイエンスフィクション研究開発・実装センターに特任研究員として着任。
 
 SF的発想を科学技術の研究開発に活かす手法の研究や、ワークショップの実施などを行っています。SFを活用した研究開発の社会実装に取り組んでいます。`,
