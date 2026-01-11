@@ -6,6 +6,7 @@ export type Category =
   | 'speaking'
   | 'research'
   | 'pr'
+  | 'media'
   | 'other'
 
 export interface RelatedLink {
@@ -39,6 +40,7 @@ export const categoryLabels: Record<Category, string> = {
   speaking: '講演会登壇',
   research: '研究',
   pr: '広報・PR',
+  media: 'メディア出演',
   other: 'その他',
 }
 
@@ -50,6 +52,7 @@ export const categoryColors: Record<Category, string> = {
   speaking: '#DC2626',
   research: '#7C3AED',
   pr: '#DB2777',
+  media: '#EA580C',
   other: '#6B7280',
 }
 
@@ -393,11 +396,11 @@ SF的発想を科学技術の研究開発に活かす手法の研究や、ワー
     title: 'テレビ東京系列『おはスタ』出演',
     description:
       '日本科学未来館の科学コミュニケーターとしてスタジオで科学実験の解説を行った。',
-    category: 'other',
+    category: 'media',
     period: '2021年11月',
     tags: ['テレビ出演', '科学実験', 'おはスタ'],
     featured: true,
-    thumbnail: 'images/projects/ohasta.jpg',
+    thumbnail: 'images/projects/ohasta.png',
     details: `テレビ東京系列の子供向け番組『おはスタ』に、日本科学未来館の科学コミュニケーターとして出演しました（2021年11月8日放送回）。
 
 スタジオで科学実験の解説を行い、子供たちに科学の面白さを伝えました。`,

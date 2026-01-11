@@ -14,6 +14,7 @@ const categories: Category[] = [
   'speaking',
   'research',
   'pr',
+  'media',
   'other',
 ]
 

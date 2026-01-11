@@ -40,7 +40,7 @@ export const profile = {
     note: 'https://note.com/myt_ryt',
     researchmap: 'https://researchmap.jp/myt_ryu',
   },
-  email: 'contact@example.com', // 実際のメールアドレスに置き換え
+  email: 'good.glider.04.19@gmail.com',
 }
 
 export type Profile = typeof profile
