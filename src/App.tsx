@@ -1,22 +1,15 @@
-import { Header } from './components/Header'
-import { Hero } from './components/Hero'
-import { About } from './components/About'
-import { Projects } from './components/Projects'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home'
+import { ProjectDetail } from './pages/ProjectDetail'
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
+      </Routes>
+    </HashRouter>
   )
 }
 
