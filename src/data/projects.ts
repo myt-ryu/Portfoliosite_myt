@@ -433,6 +433,31 @@ SF的発想を科学技術の研究開発に活かす手法の研究や、ワー
     ],
   },
   {
+    id: 'miraikan-blog-arts-culture',
+    title: '科学コミュニケーターブログ「芸術文化に満ちあふれた未来をつくるためには」',
+    description:
+      '未来館の展示「未来逆算思考」を題材に、文化財の保存と公開のジレンマやテロノロジーによる新しい鑑賞の形について執筆。',
+    category: 'writing',
+    period: '2020年7月',
+    tags: ['ブログ', '日本科学未来館', '文化財', 'テクノロジー'],
+    thumbnail: 'images/projects/miraikan-blog.png',
+    details: `日本科学未来館の科学コミュニケーターブログにて、展示「未来逆算思考」を題材にした記事を執筆しました。
+
+「芸術文化に満ちあふれた未来をつくるためには」というテーマで、文化財の保存と公開の間に生じるジレンマや、デジタルアーカイブ・スーパークローン技術による新しい芸術鑑賞の可能性、そして私たちが理想とする未来の芸術文化のあり方について考案しました。`,
+    role: '執筆',
+    organization: '日本科学未来館',
+    achievements: [
+      '「未来逆算思考」を題材にしたブログ記事の執筆',
+      '専門的なトピック（文化財保存等）を一般向けに解説',
+    ],
+    relatedLinks: [
+      {
+        label: 'ブログ記事を読む',
+        url: 'https://blog.miraikan.jst.go.jp/articles/20200728post-352.html',
+      },
+    ],
+  },
+  {
     id: 'cosmic-front-next',
     title: 'NHK BSプレミアム「コズミックフロント☆NEXT」出演',
     description:
