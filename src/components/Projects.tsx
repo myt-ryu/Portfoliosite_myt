@@ -7,14 +7,14 @@ import {
 import { ProjectCard } from './ProjectCard'
 
 const categories: Category[] = [
-  'direction',
-  'facilitation',
+  'event',
   'writing',
-  'production',
-  'speaking',
-  'research',
-  'pr',
   'media',
+  'production',
+  'exhibition',
+  'speaking',
+  'pr',
+  'research',
   'other',
 ]
 

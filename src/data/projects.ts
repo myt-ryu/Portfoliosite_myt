@@ -1,12 +1,12 @@
 export type Category =
-  | 'direction'
-  | 'facilitation'
+  | 'event'
   | 'writing'
-  | 'production'
-  | 'speaking'
-  | 'research'
-  | 'pr'
   | 'media'
+  | 'production'
+  | 'exhibition'
+  | 'speaking'
+  | 'pr'
+  | 'research'
   | 'other'
 
 export interface RelatedLink {
@@ -34,26 +34,26 @@ export interface Project {
 }
 
 export const categoryLabels: Record<Category, string> = {
-  direction: 'イベント/ワークショップのディレクション',
-  facilitation: 'イベント/ワークショップのファシリテーション',
+  event: 'イベント/ワークショップの企画制作・ファシリテーション',
   writing: '執筆',
-  production: 'プロジェクト企画・プロデュース',
-  speaking: '講演会登壇',
-  research: '研究',
-  pr: '広報・PR',
   media: 'メディア出演',
+  production: 'プロジェクトの企画/プロデュース',
+  exhibition: '展示制作',
+  speaking: '講演会などの登壇',
+  pr: 'PR/オウンドメディア運用',
+  research: '研究',
   other: 'その他',
 }
 
 export const categoryColors: Record<Category, string> = {
-  direction: '#4F46E5',
-  facilitation: '#0891B2',
+  event: '#4F46E5',
   writing: '#059669',
-  production: '#D97706',
-  speaking: '#DC2626',
-  research: '#7C3AED',
-  pr: '#DB2777',
   media: '#EA580C',
+  production: '#D97706',
+  exhibition: '#3B82F6',
+  speaking: '#DC2626',
+  pr: '#DB2777',
+  research: '#7C3AED',
   other: '#6B7280',
 }
 
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     title: '特別展「きみとロボット〜ニンゲンッテ、ナンダ？〜」',
     description:
       '日本科学未来館にて開催された特別展の展示企画・ディレクションを担当。ロボットと人間の関係性を多角的に探求する展示を実現。',
-    category: 'direction',
+    category: 'exhibition',
     period: '2020〜2022年',
     tags: ['展示企画', 'ロボット', '日本科学未来館'],
     featured: true,
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: 'SFプロトタイピングによるサイエンスコミュニケーションプロジェクト「Neu World」',
     description:
       'ムーンショット型研究開発目標1「Internet of Brains」金井プロジェクトにおける科学コミュニケーションプロジェクトの立ち上げ・プロデュース。',
-    category: 'direction',
+    category: 'production',
     period: '2022年〜現在',
     tags: ['ムーンショット', 'BMI', '科学コミュニケーション'],
     thumbnail: 'images/projects/neu-world.jpg',
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     title: 'Cinema未来館シリーズ',
     description:
       'SF映画を題材に未来を語り合うトークイベントシリーズを同僚と立ち上げ、初回のファシリテーターを務めた。',
-    category: 'direction',
+    category: 'event',
     period: '日本科学未来館在職中',
     tags: ['SF映画', 'トークイベント', '日本科学未来館'],
     thumbnail: 'images/projects/cinema-miraikan.jpg',
@@ -146,7 +146,7 @@ export const projects: Project[] = [
     title: 'サイエンス×クリエイティブ #2 - センス・オブ・ワンダーを求めて',
     description:
       'DESIGNART Tokyo 2023にて開催。研究者・アーティストと協働し、科学の持つ「センス・オブ・ワンダー」を探求するイベントの企画/ファシリテーションを担当。',
-    category: 'facilitation',
+    category: 'event',
     period: '2023年10月',
     tags: ['DESIGNART', 'アート', 'モデレーター'],
     link: 'https://100banch.com/magazine/55506/',
@@ -173,7 +173,7 @@ export const projects: Project[] = [
     title: '人工知能学会全国大会「人工知能と虚構の科学」',
     description:
       '2023年の人工知能学会全国大会にて企画セッションのオーガナイザーを務め、AIと物語の関係について専門家らと議論。',
-    category: 'facilitation',
+    category: 'event',
     period: '2023年',
     tags: ['人工知能学会', 'AI', 'SF'],
     thumbnail: 'images/projects/jsai-2023.jpg',
@@ -440,7 +440,7 @@ SF的発想を科学技術の研究開発に活かす手法の研究や、ワー
     title: 'リアル脱出ゲーム「人類滅亡からの脱出」',
     description:
       '日本科学未来館と体験型ゲーム会社SCRAPのコラボによるリアル脱出ゲーム。科学とゲームを融合した試みとして話題に。',
-    category: 'other',
+    category: 'event',
     period: '2020〜2021年',
     tags: ['リアル脱出ゲーム', 'SCRAP', '日本科学未来館'],
     thumbnail: 'images/projects/escape-game.jpg',

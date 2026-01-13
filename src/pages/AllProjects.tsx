@@ -5,14 +5,14 @@ import { projects, categoryLabels, type Category } from '../data/projects'
 import { useEffect } from 'react'
 
 const categories: Category[] = [
-  'direction',
-  'facilitation',
+  'event',
   'writing',
-  'production',
-  'speaking',
-  'research',
-  'pr',
   'media',
+  'production',
+  'exhibition',
+  'speaking',
+  'pr',
+  'research',
   'other',
 ]
 
@@ -37,17 +37,17 @@ export function AllProjects() {
           </div>
 
           {!hasProjects ? (
-             <div className="text-center py-12">
-               <p className="text-gray-500">No projects found.</p>
-               <p className="text-xs text-gray-400 mt-2">Check console for details.</p>
-             </div>
+            <div className="text-center py-12">
+              <p className="text-gray-500">No projects found.</p>
+              <p className="text-xs text-gray-400 mt-2">Check console for details.</p>
+            </div>
           ) : (
             <div className="space-y-20">
               {categories.map((category) => {
                 const categoryProjects = projects.filter(
                   (p) => p.category === category
                 )
-                
+
                 if (categoryProjects.length === 0) return null
 
                 return (
