@@ -1,4 +1,18 @@
-export const profile = {
+export interface Profile {
+  name: string
+  nameReading: string
+  nameEn: string
+  title: string
+  tagline: string
+  bio: string
+  affiliations: Array<{ org: string; role: string; period: string }>
+  skills: string[]
+  social: { x: string; note: string; researchmap: string }
+  services: string[]
+  email: string
+}
+
+export const profile: Profile = {
   name: '宮田 龍',
   nameReading: 'みやた りゅう',
   nameEn: 'Ryu Miyata',
@@ -51,5 +65,3 @@ export const profile = {
   ],
   email: 'good.glider.04.19@gmail.com',
 }
-
-export type Profile = typeof profile
