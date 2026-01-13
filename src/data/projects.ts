@@ -110,6 +110,10 @@ export const projects: Project[] = [
     ],
     relatedLinks: [
       {
+        label: '公式WEBサイト',
+        url: 'https://neu-world.link/',
+      },
+      {
         label: 'ニューロダイバーシティプロジェクト インタビュー',
         url: 'https://neuro-diversity.world/report/interview2024_araya/',
       },
