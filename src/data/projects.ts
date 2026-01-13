@@ -241,6 +241,75 @@ AIと物語（フィクション）の関係について、AI研究者、SF作�
     ],
   },
   {
+    id: 'tokyofm-onemorning-miraikan',
+    title: 'Tokyo FM「ONE MORNING」出演',
+    description:
+      '番組内の情報コーナーにて、日本科学未来館で開催中の特別展「きみとロボット」の見どころを詳しく紹介しました。',
+    category: 'media',
+    period: '2022年6月',
+    tags: ['ラジオ出演', 'Tokyo FM', '日本科学未来館', 'きみとロボット'],
+    thumbnail: 'images/projects/tokyofm-onemorning.jpg',
+    details: `Tokyo FM「ONE MORNING」（2022年6月放送）に出演しました。
+
+番組内にて、日本科学未来館で開催されていた特別展「きみとロボット〜ニンゲンッテ、ナンダ？〜」の魅力を紹介。展示されているロボットたちの特徴や、最先端のロボティクスが描く未来について解説しました。`,
+    role: '番組出演（展示解説）',
+    organization: '日本科学未来館 / Tokyo FM',
+    achievements: [
+      'ラジオ番組での特別展「きみとロボット」紹介',
+      '専門家としてのロボット技術解説',
+    ],
+  },
+  {
+    id: '1242-zoom-miraikan',
+    title: 'ニッポン放送「辛坊治郎 ズーム そこまで言うか！」出演',
+    description:
+      '番組内の「街角ステーション～噂を求めてどこまでも」コーナーにて、レポーターの吉田悠希さんとともに日本科学未来館から生中継リポートを行いました。',
+    category: 'media',
+    period: '2022年6月',
+    tags: ['ラジオ出演', 'ニッポン放送', '日本科学未来館', 'きみとロボット'],
+    thumbnail: 'images/projects/media-placeholder.jpg',
+    details: `ニッポン放送「辛坊治郎 ズーム そこまで言うか！」（2022年6月22日放送回）に出演しました。
+
+番組内の「街角ステーション～噂を求めてどこまでも」コーナーにて、レポーターの吉田悠希さんとともに日本科学未来館から生中継で出演。開催中の特別展「きみとロボット」の見どころや、ロボットと人間の未来について現地からリポートしました。`,
+    role: '番組出演（現地リポート解説）',
+    organization: '日本科学未来館 / ニッポン放送',
+    achievements: [
+      'ラジオ生放送での展示リポート・解説',
+      'レポーターとの対話による科学コミュニケーションの実践',
+    ],
+    relatedLinks: [
+      {
+        label: '番組ブログ 放送アーカイブ',
+        url: 'https://www.1242.com/zoom/zoom_blog/blog20220622-278096/',
+      },
+    ],
+  },
+  {
+    id: 'junsanpo-miraikan',
+    title: 'テレビ朝日「じゅん散歩」出演',
+    description:
+      '高田純次さんが各地を歩く「じゅん散歩」にて、日本科学未来館を訪れた際、開催中の特別展「きみとロボット」を案内・解説しました。',
+    category: 'media',
+    period: '2022年3月',
+    tags: ['テレビ出演', 'じゅん散歩', '日本科学未来館', 'きみとロボット'],
+    thumbnail: 'images/projects/media-placeholder.jpg',
+    details: `テレビ朝日「じゅん散歩」（2022年3月17日放送回）に出演しました。
+
+番組内の「日本科学未来館」散歩の回にて、当時開催中であった特別展「きみとロボット〜ニンゲンッテ、ナンダ？〜」の案内・解説を担当。高田純次さんに最新のロボット技術や展示の魅力を紹介しました。`,
+    role: '番組出演（展示案内・解説）',
+    organization: '日本科学未来館 / テレビ朝日',
+    achievements: [
+      '特別展「きみとロボット」の展示案内・解説',
+      '最新ロボット技術の一般向け解説',
+    ],
+    relatedLinks: [
+      {
+        label: 'じゅん散歩 番組バックナンバー',
+        url: 'https://www.tv-asahi.co.jp/junsanpo/backnumber2/0317/',
+      },
+    ],
+  },
+  {
     id: 'lectures',
     title: '各種講演・トークイベント登壇',
     description:
