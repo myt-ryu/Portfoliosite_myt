@@ -243,6 +243,7 @@ AIと物語（フィクション）の関係について、AI研究者、SF作�
     period: '2020.01.23',
     tags: ['現代ビジネス', '音象徴', '科学解説', '怪獣'],
     link: 'https://gendai.media/articles/-/69820',
+    thumbnail: 'images/projects/gendai-sound-symbolism.jpg',
     details: `講談社のウェブメディア「現代ビジネス」に寄稿した解説記事です。
 
 「強い怪獣の名前には濁音が入りやすい」という切り口から、言葉の音が持つイメージ（音象徴）の不思議について、言語学や認知科学の知見を交えて分かりやすく解説しました。
