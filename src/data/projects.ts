@@ -91,7 +91,7 @@ export const projects: Project[] = [
   },
   {
     id: 'neu-world',
-    title: 'Neu World プロジェクト',
+    title: 'SFプロトタイピングによるサイエンスコミュニケーションプロジェクト「Neu World」',
     description:
       'ムーンショット型研究開発目標1「Internet of Brains」金井プロジェクトにおける科学コミュニケーションプロジェクトの立ち上げ・プロデュース。',
     category: 'direction',
