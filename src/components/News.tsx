@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { newsItems } from '../data/news'
 
 export function News() {
@@ -27,8 +28,15 @@ export function News() {
                   </span>
                 )}
               </div>
-              
-              {item.url ? (
+
+              {item.projectId ? (
+                <Link
+                  to={`/project/${item.projectId}`}
+                  className="text-base text-gray-900 hover:text-gray-600 transition-colors flex-1"
+                >
+                  {item.title}
+                </Link>
+              ) : item.url ? (
                 <a
                   href={item.url}
                   target="_blank"

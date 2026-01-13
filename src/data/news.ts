@@ -4,6 +4,7 @@ export interface NewsItem {
   title: string
   category?: 'info' | 'event' | 'media' | 'other'
   url?: string
+  projectId?: string
 }
 
 export const newsItems: NewsItem[] = [
