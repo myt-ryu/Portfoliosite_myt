@@ -234,29 +234,6 @@ AIと物語（フィクション）の関係について、AI研究者、SF作�
       },
     ],
   },
-  {
-    id: 'bunshun-plus',
-    title: '文藝春秋Plus 寄稿',
-    description:
-      'ウェブ媒体「文藝春秋Plus」にて科学技術に関する記事を執筆。イーロン・マスクの"脳と機械を接続する"技術に関する展望記事など。',
-    category: 'writing',
-    period: '継続中',
-    tags: ['文藝春秋Plus', 'BMI', 'テクノロジー'],
-    link: 'https://bunshun.jp/bungeishunju/author/67e94618a53aef1044000005',
-    thumbnail: 'images/projects/bunshun-plus.jpg',
-    details: `ウェブ媒体「文藝春秋Plus」にて、科学技術に関する記事を執筆しています。
-
-2025年4月には、イーロン・マスクの"脳と機械を接続する"技術（Neuralink）に関する展望記事を掲載。最先端のテクノロジーについて、分かりやすく解説しています。`,
-    role: '寄稿者',
-    organization: '文藝春秋',
-    achievements: ['最先端テクノロジーの解説記事を執筆', 'BMI技術の展望を発信'],
-    relatedLinks: [
-      {
-        label: '文藝春秋Plus 著者ページ',
-        url: 'https://bunshun.jp/bungeishunju/author/67e94618a53aef1044000005',
-      },
-    ],
-  },
 
   // プロジェクト企画・プロデュース
   {
