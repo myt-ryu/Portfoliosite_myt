@@ -159,7 +159,7 @@ export const projects: Project[] = [
     ],
     relatedLinks: [
       {
-        label: '100BANCH アーカイブ記事',
+        label: '科学の根源にある面白さをわかちあうには——DESIGNART TOKYO 2023アーカイブ',
         url: 'https://100banch.com/magazine/55506/',
       },
     ],
