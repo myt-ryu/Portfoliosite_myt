@@ -265,20 +265,17 @@ AIと物語（フィクション）の関係について、AI研究者、SF作�
     title: '想像力のアップデート：人工知能のデザインフィクション',
     description:
       '科学技術と社会の未来像を描くSFプロトタイピングプロジェクト。',
-    category: 'production',
+    category: 'research',
     period: '2018〜2021年',
     tags: ['デザインフィクション', 'AI', 'SFプロトタイピング'],
     featured: true,
-    thumbnail: 'images/projects/ai-design-fiction.jpg',
     details: `「想像力のアップデート：人工知能のデザインフィクション」は、科学技術と社会の未来像を描くSFプロトタイピングプロジェクトです。
 
-デザインフィクションの手法を用いて、AIが普及した未来社会のシナリオを作成。多様なステークホルダーとの対話を通じて、望ましい未来像について議論を行いました。`,
+研究協力メンバーとして参画しました。`,
     role: 'プロジェクト参画',
-    organization: '日本科学未来館',
+    organization: '',
     achievements: [
       'SFプロトタイピング手法の実践',
-      'AI社会の未来シナリオ作成',
-      '多様なステークホルダーとの対話',
     ],
   },
   {
@@ -287,15 +284,15 @@ AIと物語（フィクション）の関係について、AI研究者、SF作�
       '責任ある研究とイノベーションを促進するSFプロトタイピング手法の企画調査',
     description:
       'RRI（責任ある研究・イノベーション）を促進するためのSFプロトタイピング手法の研究プロジェクト。',
-    category: 'production',
+    category: 'research',
     period: '2021〜2023年',
     tags: ['RRI', 'SFプロトタイピング', '研究'],
-    thumbnail: 'images/projects/rri-sf-prototyping.jpg',
-    details: `RRI（Responsible Research and Innovation：責任ある研究・イノベーション）を促進するためのSFプロトタイピング手法について、企画調査を行うプロジェクトに参画しました。
+    thumbnail: 'images/projects/rri-sf-prototyping.png',
+    details: `RRI（Responsible Research and Innovation：責任ある研究・イノベーション）を促進するためのSFプロトタイピング手法について、企画調査を行うプロジェクトに、研究協力メンバーとして参画しました。
 
 SFプロトタイピングを活用して、科学技術の社会的影響を多角的に検討し、責任あるイノベーションのあり方を探求しました。`,
-    role: 'プロジェクト参画',
-    organization: '（研究プロジェクト）',
+    role: '研究協力メンバー',
+    organization: '',
     achievements: [
       'RRI促進のための手法研究',
       'SFプロトタイピングの活用方法の調査',
