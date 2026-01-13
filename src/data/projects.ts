@@ -141,14 +141,14 @@ export const projects: Project[] = [
     id: 'designart-tokyo-2023',
     title: 'サイエンス×クリエイティブ #2 - センス・オブ・ワンダーを求めて',
     description:
-      'DESIGNART Tokyo 2023にて開催。研究者・アーティストと協働し、科学の持つ「センス・オブ・ワンダー」を探求するイベントのモデレーターを務めた。',
+      'DESIGNART Tokyo 2023にて開催。研究者・アーティストと協働し、科学の持つ「センス・オブ・ワンダー」を探求するイベントの企画/ファシリテーションを担当。',
     category: 'facilitation',
     period: '2023年10月',
     tags: ['DESIGNART', 'アート', 'モデレーター'],
     link: 'https://100banch.com/magazine/55506/',
     featured: true,
     thumbnail: 'images/projects/designart-tokyo-2023.jpg',
-    details: `DESIGNART Tokyo 2023にて開催された「サイエンス×クリエイティブ #2 - センス・オブ・ワンダーを求めて」の企画/ファシリテーションを担当しました。
+    details: `DESIGNART Tokyo 2023にて開催された「サイエンス×クリエイティブ #2 - センス・オブ・ワンダーを求めて」の企画/ファシリテーションを担当。
 
 研究者・アーティストと協働し、科学の根源にある「面白さ」や「驚き」を探求。異分野の専門家が集まり、科学の持つ「センス・オブ・ワンダー」について深く議論しました。`,
     role: '企画/ファシリテーション',
