@@ -8,6 +8,18 @@ export function Contact() {
           Contact
         </h2>
 
+        <div className="mb-12">
+          <h3 className="text-gray-900 font-medium mb-4">対応可能業務</h3>
+          <ul className="text-gray-600 space-y-2 inline-block text-left">
+            {(profile as any).services.map((service: string) => (
+              <li key={service} className="flex items-center gap-2">
+                <span className="w-1 h-1 bg-gray-400 rounded-full" />
+                {service}
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <p className="text-gray-600 mb-8 max-w-md mx-auto">
           お仕事のご依頼・ご相談は
           <br />

@@ -42,6 +42,13 @@ export const profile = {
     note: 'https://note.com/myt_ryt',
     researchmap: 'https://researchmap.jp/myt_ryu',
   },
+  services: [
+    'SFプロトタイピングの企画・実施',
+    '展示・イベントの企画・ディレクション',
+    '科学コミュニケーションに関する講演・研修',
+    '執筆・編集（科学記事、広報、SF設定等）',
+    '研究開発の社会実装支援',
+  ],
   email: 'good.glider.04.19@gmail.com',
 }
 
