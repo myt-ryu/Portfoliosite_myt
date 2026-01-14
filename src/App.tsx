@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { ProjectDetail } from './pages/ProjectDetail'
 import { AllProjects } from './pages/AllProjects'
+import { Biography } from './pages/Biography'
 import { ErrorBoundary } from './components/ErrorBoundary'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
+          <Route path="/biography" element={<Biography />} />
         </Routes>
       </ErrorBoundary>
     </HashRouter>

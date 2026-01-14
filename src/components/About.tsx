@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { profile } from '../data/profile'
 
 export function About() {
@@ -13,7 +14,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Profile Image */}
           <div className="flex justify-center md:justify-end">
-            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden bg-gray-100">
+            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden bg-gray-100 shadow-sm">
               <img
                 src={`${basePath}images/profile.png`}
                 alt={profile.name}
@@ -25,7 +26,7 @@ export function About() {
           {/* Profile Content */}
           <div className="space-y-8">
             {/* Bio */}
-            <p className="text-gray-600 leading-relaxed">{profile.bio}</p>
+            <p className="text-gray-600 leading-relaxed whitespace-pre-wrap">{profile.bio}</p>
 
             {/* Affiliations */}
             <div>
@@ -102,12 +103,26 @@ export function About() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition-colors"
                 >
-                  <span className="w-4 h-4 flex items-center justify-center text-xs font-bold">
+                  <span className="w-4 h-4 flex items-center justify-center text-xs font-bold font-mono">
                     RM
                   </span>
                   researchmap
                 </a>
               </div>
+            </div>
+
+            {/* Biography Link */}
+            <div className="pt-6 border-t border-gray-100">
+              <Link
+                to="/biography"
+                className="group inline-flex items-center gap-2 text-sm font-bold text-gray-900 hover:text-gray-600 transition-colors"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                <span>READ FULL BIOGRAPHY</span>
+                <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
