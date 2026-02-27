@@ -199,6 +199,31 @@ AIと物語（フィクション）の関係について、AI研究者、SF作�
     ],
   },
   {
+    id: 'withnews-robot-identity',
+    title: 'withnews寄稿：あなたは死後も〝存続〟したい？ロボットが揺さぶる「人間」の定義',
+    description:
+      'ロボット科学者ピーター・スコット＝モーガン博士の軌跡を辿りながら、ロボットが「人間」の定義をどう書き換えていくのかを考察した解説記事。',
+    category: 'media',
+    period: '2022年7月',
+    tags: ['ロボット', 'アバター', 'withnews', '解説記事'],
+    thumbnail: 'images/projects/media-placeholder.jpg',
+    details: `朝日新聞社のニュースサイト「withnews」に、ピーター・スコット＝モーガン博士の追悼とともに、ロボットと人間の境界をテーマにした解説記事を寄稿しました。
+
+「きみとロボット〜ニンゲンッテ、ナンダ？〜」展に展示されていた「弱いロボット」などを通じて、無機物が慈悲の念を呼び起こす不思議や、脳以外のパーツが機械に置き換わっても「その人」であると言えるのか（テセウスの船）といった哲学的・倫理的な問いについて、展示解説を交えながら詳しく記述しています。`,
+    role: '解説記事（寄稿）',
+    organization: 'withnews (朝日新聞社)',
+    achievements: [
+      'ロボティクスと人間らしさをめぐる哲学的問いの解説',
+      '特別展「きみとロボット」の展示内容と連動した記事執筆',
+    ],
+    relatedLinks: [
+      {
+        label: '記事を読む（withnews）',
+        url: 'https://withnews.jp/article/f0220728001qq000000000000000W0bq10801qq000024962A',
+      },
+    ],
+  },
+  {
     id: 'araya-pr',
     title: '株式会社アラヤ 研究広報',
     description:
@@ -382,6 +407,10 @@ AI、ロボット、脳科学、SFプロトタイピングなど、幅広いテ�
       {
         label: '日本科学未来館 特別展ページ',
         url: 'https://www.miraikan.jst.go.jp/exhibitions/spexhibition/kimirobo.html',
+      },
+      {
+        label: '解説記事：あなたは死後も〝存続〟したい？（withnews）',
+        url: 'https://withnews.jp/article/f0220728001qq000000000000000W0bq10801qq000024962A',
       },
     ],
   },
